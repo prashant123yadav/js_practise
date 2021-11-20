@@ -1,6 +1,6 @@
-let car={
+let bike={
 color:'red'}
-let secondcar=car;
-car.wheels=4
-console.log(car);
-console.log(secondcar)
+let secondbike=bike;
+bike.wheels=2
+console.log(bike===secondbike);
+console.log(secondbike)

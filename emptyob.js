@@ -1,6 +1,7 @@
-const car ={
-wheels:4,
-color:"red",
-"goes fast":true
+const  cars = {
+ferrari:"california",
+porsche:"911",
+buggati:"veyron",
 }
-console.log(car['goes fast'])
+const key="ferrari"
+console.log(cars[key]);

@@ -1,4 +1,4 @@
-var areaofcircle=function(a,b,c){
-    return (a,b,c);}
-    var result=areaofcircle(3.14,2,2)
+var areaofcircle=function(a,r,r){
+    return a*r*r;}
+    var result=areaofcircle(3.14,5,5)
     console.log(result);

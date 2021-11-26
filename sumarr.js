@@ -1,5 +1,6 @@
-var arraysum=[4,5,6,7].reduce(add,0);
-function add(accumulater,a){
-    return accumulater+a;
-  
+const array=[-6,10,0,4];
+let sum=0;
+for(let i=0 ; i<array.length ; i++){
+sum+=array[i];
 }
+console.log(sum);

@@ -3,5 +3,5 @@ ferrari:"california",
 porsche:"911",
 buggati:"veyron",
 }
-const key="ferrari"
+const key="porsche"
 console.log(cars[key]);

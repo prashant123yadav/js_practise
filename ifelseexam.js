@@ -1,9 +1,13 @@
-var sellstock=function(stockprice,sellprice){
+  var sellstock=function(stockprice,sellprice)
+ {
     if(stockprice>=sellprice)
-    { console.log("true");}
+
+ { 
+        console.log("true");
+}
     else(stockprice<=sellprice)
 {
-console.log("false");}
+     console.log("false");}
 }
-sellstock(100,99);
+      sellstock(100,99);
 

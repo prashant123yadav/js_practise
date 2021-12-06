@@ -4,6 +4,7 @@ var student = {
     grades: [90, 88, 95]
   }
   
-  for(property in student) {
+   for(property in student) 
+  {
     console.log(student[property]);
   }

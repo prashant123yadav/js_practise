@@ -1,9 +1,18 @@
-var weather=function(temperature){
+    var weather=function(temperature)
+ {
     console.log("the temperature outside is",temperature,"degrees ferenheight.");
-if (temperature<=65){
+
+    if (temperature<=65)
+ {
     console.log("it is getting cold outside.better wear jecket!");
-} else {
-console.log("it is pleasant outside");
+
+ } 
+    else 
+ {
+
+     console.log("it is pleasant outside");
+     
 }
+
 }
-weather(70);
+        weather(70);

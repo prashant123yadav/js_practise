@@ -1,4 +1,4 @@
-   var sum = function(x,y)
+var sum = function(x,y)
 {
     return x+y
 };
@@ -6,7 +6,7 @@
 {
     return x-y
 };
-   var multiply = function(x,y)
+var multiply = function(x,y)
 {
     return x*y
 };

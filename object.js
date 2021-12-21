@@ -5,6 +5,7 @@ drive : function() {
 console.log("wroom wroom")  
     }
 }
-console.log(Object.keys (car)[0])
-console.log(typeof Object.keys (car)[0])
+console.log(Object.keys (car)[0])         // wheels 
+console.log(typeof Object.keys (car)[0])  //string
 car.drive();
+// wroom wroom

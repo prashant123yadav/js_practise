@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html> 
+ <title> using JSON in javascript</title>
+  <script>
+        var order = {
+        "date" : "11/20/2013",
+        "customerId" : 116 ,
+        "items" : [
+        {
+            "product" : "surface 4 pro",
+            "unitprice" : "799",
+            "amount" : 1
+       },
+         {
+           "product" : "type cover 4",
+           "unitprice" : "129" ,
+          "amount" : 1
+        },
+        {
+          "product" : "docking station" ,
+          "unitprice" : "199",
+          "amount" : 1
+       }    
+    ]
+ }
+       console.log("date :" +order.date);
+      for (var i = 0; i < order.items.length; i++) {
+      console.log("Product: "
+        + order.items[i].product);
+      console.log("Unit price: "
+        + order.items[i].unitprice);
+      console.log("Amount: "
+        + order.items[i].amount);
+    }
+  </script>
+</head>
+<body>
+  Listing 8-1: View the console output
+</body>
+</html>
+
+</script>
+</html>

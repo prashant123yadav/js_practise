@@ -1,7 +1,10 @@
- var remainder= function(x,y)
-{
-    return x%y
+   var Remainder = function (x,y)
+  {
+          return x%y
+  };
+    var oprations = [Remainder];
+
+    for (i=0 ; i<Remainder.length ; i++)
+{ 
+    console.log(Remainder(52,5))
 };
- //var oprations = [remainder];
-    //for (i=0 ; i<remainder.length;i++)
-    console.log(remainder(52,5))

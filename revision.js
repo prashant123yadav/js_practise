@@ -1,3 +1,5 @@
-var sum = function(x,y){
-    return x+y;}
+var sum = function(x,y)
+{
+    return x+y;
+}
 sum (5,5)

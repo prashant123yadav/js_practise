@@ -1,5 +1,3 @@
-//var a =1 ;
-
-for(var i=1 ; i<=10 ; i++){
-    console.log("sd")
+for(var i=15;i<0;i++){
+    console.log(i)
 }

@@ -1,4 +1,4 @@
-var areaofrectangle = function(w,h)
+ var areaofrectangle = function(w,h)
 {
     return w*h;
 }

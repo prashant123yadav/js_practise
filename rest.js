@@ -1,3 +1,3 @@
-const runner = ["chotu","montu","virat","pratima"]
+const runner = ["monu","chotu","montu","virat","pratima","sonu"]
 const [first,second,...winner]=runner;
 console.log(...winner)

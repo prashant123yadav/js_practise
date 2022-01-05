@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Module pattern</title>
   <script>
     var CircleOps = (function () {
-      // --- Private stuff
+
       var pi = 3.1415926;
       var radSquare = function (rad) {
         return rad * rad;
       }
-
-      // --- Public stuff
       return {
         PI: pi,
         calcArea: function (rad) {
@@ -32,7 +31,9 @@
     console.log("perimeter: " + perim);
   </script>
 </head>
+
 <body>
   Listing 8-21: View the console output
 </body>
+
 </html>

@@ -1,10 +1,10 @@
 
-const work = require("softwereEngineer");
+const work = require("readline");
 
-const sf = softwereEngineer.createinterface({
+const sf = work.createInterface({
 
-input:stdin ,
-output:stdout
+input:process.stdin ,
+output:process.stdout
 });
  
 var argu = "what is your designation ?\n";

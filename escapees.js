@@ -1,2 +1,2 @@
-var sentence = "raju is boy.\n raju is smart."
+var sentence = "raju is boy.\nraju is smart."
 console.log(sentence);

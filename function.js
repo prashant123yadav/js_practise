@@ -1,2 +1,8 @@
-let arr = new Array(23,"cat",new Object())
-typeof(arr)
+const company = function(x,y){
+    return x+y;
+}
+  console.log("Sadguru"+" "+ "Enterprises")  
+
+
+
+

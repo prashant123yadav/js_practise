@@ -1,4 +1,10 @@
-const friends = ['raju','prashant','arjun']
-console.log(friends[0])
-console.log(friends[1])
-console.log(friends[2])
+const friends = ["raju", "prashant", "arjun"];
+console.log(friends[0]);
+friends.push("chotu");
+console.log(friends);
+friends.pop();
+console.log(friends);
+friends.unshift("raja");
+console.log(friends);
+friends.shift();
+console.log(friends);

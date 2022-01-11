@@ -1,13 +1,8 @@
-  var sellstock=function(stockprice,sellprice)
- {
-    if(stockprice >= sellprice)
-
- { 
-        console.log("true");
-}
-    else(stockprice < sellprice)
-{
-     console.log("false");}
-}
-      sellstock(100,99);
-
+var sellstock = function (stockprice, sellprice) {
+  if (stockprice >= sellprice) {
+    console.log("True");
+  } else {
+    console.log("False");
+  }
+};
+sellstock(10000, 9494);

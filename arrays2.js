@@ -17,4 +17,4 @@ const movie=[
         year:2001
     }
 ]
-console.log(movie["title"])
+console.log(movie)

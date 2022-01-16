@@ -7,3 +7,4 @@ someFunction = function () {
 };
 
 myEmitter.on("some event", someFunction);
+myEmitter.emit("some event");
